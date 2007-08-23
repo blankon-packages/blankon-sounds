@@ -1,0 +1,13 @@
+Source: blankon-sounds
+Section: base
+Priority: optional
+Maintainer: zahris <noorzein@google.com>
+Build-Depends: debhelper, cdbs
+Standards-Version: 0.0.1
+
+Package: blankon-sounds
+Section: base
+Architecture: all 
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: BlankOn  Sounds
+ BlankOn Sounds "enjoy the music".
