@@ -1,0 +1,9 @@
+[toggled]
+file=/usr/share/sounds/blankon/click.wav
+
+[activate]
+file=/usr/share/sounds/blankon/click.wav
+
+[clicked]
+file=/usr/share/sounds/blankon/click.wav
+

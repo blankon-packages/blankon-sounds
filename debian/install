@@ -1,0 +1,2 @@
+build/usr/share/sounds/blankon/*.wav /usr/share/sounds/blankon
+build/etc/skel/.gnome/sound/events/*soundlist /etc/skel/.gnome/sound/events
