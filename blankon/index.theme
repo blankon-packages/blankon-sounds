@@ -1,0 +1,6 @@
+[Sound Theme]
+Name=BlankOn
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo

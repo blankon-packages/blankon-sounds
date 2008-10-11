@@ -1,11 +1,44 @@
 #!/usr/bin/make -f
-include /usr/share/cdbs/1/rules/debhelper.mk
 
-build/blankon-sounds::
-	mkdir -p build/etc/skel/.gnome/sound/events
-	cp -p *.soundlist build/etc/skel/.gnome/sound/events
-	mkdir -p build/usr/share/sounds/blankon
-	cp -p *.wav build/usr/share/sounds/blankon
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
 
-clean::
-	rm -rf build
+build: build-stamp
+
+build-stamp:
+	dh_testdir
+	touch build-stamp
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp configure-stamp
+	dh_clean 
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k 
+	dh_installdirs
+	cp -r $(CURDIR)/blankon $(CURDIR)/debian/blankon-sounds/usr/share/sounds
+
+# Build architecture-independent files here.
+binary-indep: build install
+# We have nothing to do by default.
+
+# Build architecture-dependent files here.
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs 
+	dh_installdocs
+	dh_link
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install configure

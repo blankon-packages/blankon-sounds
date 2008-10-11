@@ -1,3 +1,19 @@
+blankon-sounds (4.0-1) meuligoe; urgency=low
+
+  * Tema baru untuk blankon-sounds
+    - Suara baru untuk login dan logout BlankOn.
+    - Tambah direktori blankon & masukkan suara *.ogg.
+    - Rename ding, dong, click menjadi nama baru sesuai sistem penamaan
+      terbaru.
+  * debian/rules : update build rules.
+  * debian/copyright : desktop-logout.wav & desktop-login.wav menggunakan
+    lisensi GPL versi 3.
+  * debian/control : 
+    - ganti entri Conflicts dari gnome-sounds ke gnome-audio.
+    - masukkan vorbis-tools ke Build-Depends.
+
+ -- Andy Apdhani <imtheface@ubuntu.com>  Sun, 12 Oct 2008 01:21:39 +0700
+
 blankon-sounds (0.1-0blankon1) konde; urgency=low
 
   * Rilis pertama

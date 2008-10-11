@@ -1,12 +1,13 @@
 Source: blankon-sounds
 Section: gnome
 Priority: optional
-Maintainer: BlankOn Developers <BlankOn@googlegroups.com>
-Build-Depends: cdbs, debhelper (>= 5)
+Maintainer: BlankOn Developers <BlankOn@googlegroup.com>
+Build-Depends: debhelper (>= 5), vorbis-tools
 Standards-Version: 3.7.2
 
 Package: blankon-sounds
 Architecture: all
-Conflicts: gnome-sounds, ubuntu-sounds
-Description: BlankOn sounds 
- BlankOn sounds
+Depends: ${misc:Depends}
+Conflicts: gnome-audio, ubuntu-sounds
+Description: BlankOn's GNOME audio theme
+ Sounds to spruce up the GNOME desktop environment.

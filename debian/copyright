@@ -1,1 +1,15 @@
-This package is released under terms of the General Public License version 2.
+Copyright Holder: 				
+
+The following is a list of the files included in the example content package, 
+with authors and license information.
+
+ * button-pressed.wav, dialog-error.wav, dialog-question.wav
+   (C) Tom Haste
+   License: GPL Version 2
+
+ * desktop-logout.wav, desktop-login.wav
+   (C) Farhan Perdana
+   License: GPL Version 3
+
+On Debian GNU/Linux systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/'.
