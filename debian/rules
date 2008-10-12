@@ -21,6 +21,7 @@ install: build
 	dh_clean -k 
 	dh_installdirs
 	cp -r $(CURDIR)/blankon $(CURDIR)/debian/blankon-sounds/usr/share/sounds
+	cp -r $(CURDIR)/card_shuffle.wav $(CURDIR)/debian/blankon-sounds/usr/share/sounds
 
 # Build architecture-independent files here.
 binary-indep: build install

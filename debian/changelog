@@ -1,3 +1,12 @@
+blankon-sounds (4.0-2) meuligoe; urgency=low
+
+  * Tambah sound theme belum ada menggunakan sound theme dari paket
+    ubuntu-sounds.
+  * Update debian/copyright dengan menyertakan lisensi sound theme milik
+    Ubuntu.
+
+ -- Andy Apdhani <imtheface@ubuntu.com>  Mon, 13 Oct 2008 03:43:05 +0700
+
 blankon-sounds (4.0-1) meuligoe; urgency=low
 
   * Tema baru untuk blankon-sounds
