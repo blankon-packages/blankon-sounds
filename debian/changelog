@@ -1,3 +1,9 @@
+blankon-sounds (8.0-1) pattimura; urgency=low
+
+  * rebuild for rote.
+  
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Sat, 05 Nov 2011 07:06:38 +0700
+
 blankon-sounds (6.0-6) pattimura; urgency=low
 
   * Update desktop-login dari Kukuh Syafaat
