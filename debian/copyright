@@ -2,8 +2,11 @@ Copyright Holder:
 
 The following is a list of the files included in the example content package, 
 with authors and license information.
-
- * desktop-logout.wav, desktop-login.wav
+ 
+ * desktop-login.wav 
+   (C) 2012 Kukuh Syafaat, Ahmad Haris 
+   License: GPL Version 3
+ * desktop-logout.wav
    (C) 2008 Farhan Perdana <blackdramon@gmail.com>
    License: GPL Version 3
 

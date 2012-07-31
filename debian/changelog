@@ -1,3 +1,9 @@
+blankon-sounds (8.0-2) rote; urgency=low
+
+  * Changes desktop-login
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Wed, 01 Aug 2012 01:22:05 +0700
+
 blankon-sounds (8.0-1) rote; urgency=low
 
   * rebuild for rote.
