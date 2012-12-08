@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: blankon-sounds
 Architecture: all
-Depends: ${misc:Depends}
-Conflicts: gnome-audio, ubuntu-sounds
+Depends: ${misc:Depends}, blankon-desktop
+Conflicts: gnome-audio
 Description: BlankOn's GNOME audio theme
  Sounds to spruce up the GNOME desktop environment.
