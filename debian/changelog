@@ -1,3 +1,9 @@
+blankon-sounds (10.0-1) tambora; urgency=low
+
+  * Upload to tambora
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Mon, 03 Mar 2014 19:25:17 +0700
+
 blankon-sounds (8.0-4) rote-updates; urgency=low
 
   * Added blankon-desktop to depends
